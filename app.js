@@ -9,14 +9,14 @@ function mostrarTextoNaTela(tag, texto) {
 }
 function mensagemTela() {
     mostrarTextoNaTela('h1', 'Jogo do número secreto');
-    mostrarTextoNaTela('p', 'Escolha um número entre 1 e 200');
+    mostrarTextoNaTela('p', 'Escolha um número entre 1 a 200');
 }
 mensagemTela()
 
 function verificarChute() {
     let chute = document.querySelector('input').value;
     if (chute == numeroSecreto) {
-        mostrarTextoNaTela('h1', 'Acertou!');
+        mostrarTextoNaTela('h1', 'Parabéns você acertou!');
         let palavraTentativa= tentativas> 1 ? 'tentativas' : 'tentativa';
         let textoTentativas= `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`;
         mostrarTextoNaTela('p', textoTentativas);
