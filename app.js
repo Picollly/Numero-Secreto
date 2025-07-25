@@ -8,7 +8,8 @@ function mostrarTextoNaTela(tag, texto) {
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate: 1.2});
 }
 function mensagemTela() {
-    
+    mostrarTextoNaTela('h1', 'Jogo do número secreto');
+    mostrarTextoNaTela('p', 'Escolha um número entre 1 e 100');
 }
 mensagemTela()
 
