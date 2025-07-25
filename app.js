@@ -9,7 +9,7 @@ function mostrarTextoNaTela(tag, texto) {
 }
 function mensagemTela() {
     mostrarTextoNaTela('h1', 'Jogo do número secreto');
-    mostrarTextoNaTela('p', 'Escolha um número entre 1 a 200');
+    mostrarTextoNaTela('p', 'Escolha um número de 1 a 200');
 }
 mensagemTela()
 
